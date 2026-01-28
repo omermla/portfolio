@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ömer Faruk Mila - Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header Section Code -->
+
+    <header class="header">
+        <a href="#home" class="logo">Ömer Faruk Mila</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section Code -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="assets/Profile.jpeg" alt="Profile Image">
+        </div>
+
+        <div class="home-content">
+            <h3>Hello, Myself</h3>
+            <h1>Ömer Faruk Mila</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Software Engineering student focused on building clean, efficient, and user-friendly applications.
+                Passionate about learning and continuous improvement.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/omer-faruk-m-9ba494305/" target="_blank"
+                    rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/omermla" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="mailto:omerfarukmila@gmail.com"><i class='bx bxs-envelope'></i></a>
+            </div>
+            <a href="assets/Ömer_Faruk_Mila_CV.pdf" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- About Section Code -->
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>I'am a <span>Software Enginnering student at Eastern Mediterranean University (EMU)</span></h3>
+            <p class="about-short">
+                I’m a Software Engineering student with a strong interest in building practical, real-world
+                applications. I focus on improving my skills through hands-on projects, clean code, and continuous
+                learning.
+            </p>
+
+            <p class="about-more" id="aboutMore">
+                I am currently a second-year Software Engineering student at Eastern Mediterranean University.
+                <br><br>
+                I actively work on improving myself by developing small projects, experimenting with new technologies,
+                and strengthening my problem-solving skills. I enjoy turning ideas into functional applications and
+                learning how software works behind the scenes.
+                <br><br>
+                Outside of coursework, I spend my time coding, exploring modern development tools, and continuously
+                expanding my technical knowledge to prepare for a professional career in software development.
+            </p>
+
+            <a href="javascript:void(0)" class="btn" id="readMoreBtn">Read More</a>
+
+        </div>
+
+        <div class="about-img">
+            <img src="assets/About.jpeg" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Skills Section Code -->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skilss-container">
+            <div class="skills-box">
+                <i class="bx bx-code"></i>
+                <h3>HTML, CSS & JavaScript</h3>
+                <p>Building simple and responsive web pages using HTML and CSS, and adding basic interactivity with
+                    JavaScript while learning core frontend concepts.</p>
+            </div>
+
+            <div class="skills-box">
+                <i class="bx bx-palette"></i>
+                <h3>User Interface Design (Figma)</h3>
+                <p>Designing basic user interfaces and prototypes in Figma for course projects, focusing on layout,
+                    usability, and clean design.</p>
+            </div>
+
+            <div class="skills-box">
+                <i class="bx bx-file"></i>
+                <h3>Software Requirements & Documentation</h3>
+                <p>Preparing software requirement documents (SRS) and project documentation as part of software
+                    engineering coursework.</p>
+               
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Section Code -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formspree.io/f/mwvbeybp" method="POST">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="telp" name="Phone" placeholder="Phone Number">
+                <input type="text" name="Subject" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section Code -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/omer-faruk-m-9ba494305/" target="_blank" rel="noopener noreferrer"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/omermla" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="mailto:omerfarukmila@gmail.com"><i class='bx bxs-envelope'></i></a>
+        </div>
+        <p class="copyright">
+            &copy; Ömer Faruk Mila - All Rights Reserved
+        </p>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
